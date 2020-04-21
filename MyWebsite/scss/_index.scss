@@ -1,0 +1,198 @@
+body{
+    font-style: italic;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Roboto', '微軟正黑體', 'sans-serif';
+}
+
+// 共同
+.bg-white{
+    background: #fff;
+    color: #000;
+}
+.bg-dark{
+    background: #000;
+    color: #fff;
+}
+
+
+// .wrap{
+//     width: 1920px;
+//     margin: 0 auto;
+// }
+
+.banner{
+    background-image: url(../images/photo-1552393700-42696fb89bfa/photo-1552393700-42696fb89bfa.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-content{
+    color: #fff;
+    padding-top: 356px;
+    padding-bottom: 256px;
+    span{
+    line-height: 42px;
+    font-weight: 700;
+    }
+    .banner-title{
+    font-size: 80px;
+    line-height: 94px;
+    margin-bottom: 32px;
+    font-weight: 900;
+    }
+    .banner-text{
+    line-height: 42px;
+    margin-bottom: 64px;
+    font-weight: 700;
+    }
+    .banner-group{
+    display: flex;
+    justify-content: space-around;
+    }
+}
+.footer{
+    font-weight: 500;
+    text-align: center;
+    padding: 64px 0 80px 0;
+    .footer-title{
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 16px;
+    }
+    .footer-text{
+    margin-bottom: 16px;
+    }
+    p{
+        line-height: 36px;
+    }
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0 56px 0;
+    .about-title{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 40px;
+    }
+    .about-info{
+    border-bottom: 1px solid #000;
+    text-align: center;
+    margin-bottom: 34px;
+    img{
+        margin-bottom: 21px;
+    }
+    h3{
+        font-weight: 700;
+        line-height: 42px;
+        margin-bottom: 8px;
+    }
+    p{
+        font-weight: 700;
+        line-height: 36px;
+        margin-bottom: 32px;
+    }
+}
+    .about-group{
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    li{
+        position: relative;
+        margin-left: 16px;
+        &:before{
+        content:'';
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: #891818 ;
+        position: absolute;
+        margin-left: -38px;
+        margin-top: 10px;
+        }
+    }
+    }
+}
+.brand{
+    padding: 64px 0 120px 0;
+    .brand-group{
+        margin-bottom: 40px;
+        margin-right: 24px;
+        img{
+            display: block;
+        }
+    }
+}
+.works{
+    padding: 64px 0 104px 0;
+    background: transparent url(../images/photo-1561291386-5be50364cfb5/photo-1561291386-5be50364cfb5.png) 0% 100% no-repeat  padding-box;
+    .works-group{
+        margin-bottom: 56px;
+        img{
+            display: block;
+            margin-right: 24px;
+            margin-bottom: 16px;
+        }
+        p{
+            color: #fff;
+            text-align: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 42px;
+        }
+}
+
+}
+
+// 把brand和works相同的設定拉出來
+.card{
+    text-align: center;
+    margin-bottom: 48px;
+    .card-title{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 16px;
+    }
+    .card-subtitle{
+    margin-bottom: 32px;
+    font-weight: 500;
+    
+    line-height: 42px;
+    }
+    .card-body{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 42px;
+    }
+}
+.onepicFlow{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.twopicFlow{
+    display: flex;
+    justify-content: center;
+    img{
+    margin-right: 24px;
+    }
+}
+.threepicFlow{
+    display: flex;
+    justify-content: center;
+    img{
+    margin-right: 24px;
+    }
+}
+.flex-content-center{
+    display: flex;
+    justify-content: center;
+}
